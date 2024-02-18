@@ -2,9 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "practice project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Atharv1903/Backend/issues"
   },
-  "homepage": "https://github.com/Atharv1903/Backend#readme"
+  "homepage": "https://github.com/Atharv1903/Backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
